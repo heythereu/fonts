@@ -1,0 +1,43 @@
+{
+  "id": "better-clouds",
+  "name": "Better Clouds",
+  "version": "v0.0.2",
+  "description": "Restores clouds to the sky, thankfully not the default ones!\n\nFeatures:\n• Adjustable cloud height\n• Toggle between Fast and Fancy clouds",
+  "author": "heythereu",
+  "gameVersion": "v3.41.60",
+  "icon": "https://i.imgur.com/Iei090p.png",
+  "settings": [
+    {
+      "id": "cloudHeight",
+      "type": "slider",
+      "label": "Cloud Height",
+      "default": 128,
+      "min": 64,
+      "max": 256,
+      "step": 1,
+      "unit": " blocks"
+    },
+    {
+      "id": "cloudStyle",
+      "type": "select",
+      "label": "Cloud Quality",
+      "default": "fancy",
+      "options": [
+        {
+          "label": "Fast",
+          "value": "fast"
+        },
+        {
+          "label": "Fancy",
+          "value": "fancy"
+        }
+      ]
+    }
+  ],
+  "replacements": [
+    {
+      "search": "justtesting",
+      "replace": "justtesting"
+    }
+  ]
+}
